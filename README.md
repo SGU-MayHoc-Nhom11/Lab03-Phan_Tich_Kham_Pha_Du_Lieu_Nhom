@@ -1,8 +1,8 @@
 # 🏡 House Prices: Exploratory Data Analysis (EDA)
 
 > **Báo cáo Đồ án Học phần / End-of-Term Project**  
-> **Môn học:** [Tên môn học, ví dụ: Phân tích Dữ liệu / Khoa học Dữ liệu]  
-> **Giảng viên hướng dẫn:** [Tên Thầy/Cô]  
+> **Môn học:** Máy học (Machine Learning)  
+> **Giảng viên hướng dẫn:** Đỗ Như Tài  
 
 ---
 
