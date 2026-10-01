@@ -1,40 +1,39 @@
-# **ĐỀ TÀI:** PHÂN TÍCH KHÁM PHÁ DỮ LIỆU (HOUSE PRICES ADVANCED REGRESSION)  
+# 🏡 House Prices: Exploratory Data Analysis (EDA)
 
-# Phân công 
-
-> **Phân công:**
-
-> 💻 **Code:** Tất cả thành viên cùng tham gia
-
-> 📝 **Báo cáo:** Cao Ngọc Hân & Trần Đỗ Khánh Linh
-
-> 🎨 **Slide & Thuyết trình:** Nguyễn An Nhung
+> **Báo cáo Đồ án Học phần / End-of-Term Project**  
+> **Môn học:** [Tên môn học, ví dụ: Phân tích Dữ liệu / Khoa học Dữ liệu]  
+> **Giảng viên hướng dẫn:** [Tên Thầy/Cô]  
 
 ---
 
-## Bảng phân công chi tiết công việc
+## 📌 1. Giới thiệu Dự án (Overview)
 
-| Thành viên | Nhiệm vụ chính | Chi tiết công việc | Sản phẩm bàn giao |
-| :--- | :--- | :--- | :--- |
-| **Cao Ngọc Hân** | **Code Part 1**<br>+ **Báo cáo Part 1** | • **Code:** Khởi tạo môi trường, nạp dữ liệu, kiểm tra tổng quan & ép kiểu biến (`MSSubClass`, `MoSold`,...)[cite: 1].<br>• **Báo cáo:** Soạn Mở đầu, Tổng quan đề tài, Mô tả bộ dữ liệu Ames Housing & Lý thuyết phân loại biến. | • Đoạn code Part 1 chạy chuẩn.<br>• Nửa đầu bài Báo cáo (Word). |
-| **Trần Đỗ Khánh Linh** | **Code Part 2**<br>+ **Báo cáo Part 2** | • **Code:** Xử lý biến mục tiêu `SalePrice`, tính thống kê mô tả (Mean, Std, Min, Max...) & biến đổi Logarithm[cite: 1].<br>• **Báo cáo:** Viết nhận xét chuyên sâu phần thống kê, giải thích lý do cần Log-transform & tổng hợp toàn bộ bài Báo cáo. | • Đoạn code Part 2 chạy chuẩn.<br>• Nửa sau bài Báo cáo + File Word hoàn chỉnh. |
-| **Nguyễn An Nhung** | **Code Part 3**<br>+ **Slide & Presentation** | • **Code:** Phân loại biến Định tính / Định lượng, xuất toàn bộ bảng số liệu & hình biểu đồ (`.png`) cho nhóm[cite: 1].<br>• **Slide:** Thiết kế PowerPoint, tóm tắt ý chính từ Báo cáo, chèn biểu đồ/bảng số liệu & chuẩn bị kịch bản thuyết trình. | • Đoạn code Part 3 + Folder biểu đồ.<br>• File Slide (`.pptx`) + Kịch bản nói. |
+Dự án thực hiện phân tích khám phá dữ liệu (EDA) và tiền xử lý dữ liệu cho bài toán dự đoán giá nhà dựa trên tập dữ liệu **House Prices - Advanced Regression Techniques** từ Kaggle.
 
----
-
-## 🛠️ Chi tiết phần công việc code 
-
-- **Cao Ngọc Hân (Tiền xử lý cơ bản):** Nạp thư viện, đọc `train.csv`, kiểm tra `shape`, `info()`, đổi tên cột và ép kiểu các biến số nguyên sang dạng chuỗi[cite: 1].
-- **Trần Đỗ Khánh Linh (Phân tích biến mục tiêu):** Lấy danh sách biến định lượng/định tính, vẽ biểu đồ phân phối `SalePrice`, tính các chỉ số thống kê & lấy Logarithm `LogSalePrice`[cite: 1].
-- **Nguyễn An Nhung (Trực quan hóa & Xuất File):** Lọc danh sách biến định tính/định lượng còn lại, vẽ biểu đồ đối chiếu và export toàn bộ file `.png` cho cả nhóm làm Slide & Báo cáo[cite: 1].
+* **Nguồn dữ liệu:** Kaggle Dataset (`train.csv`)
+* **Kích thước dữ liệu:** 1,460 dòng, 81 cột
+* **Biến mục tiêu (Target Variable):** `SalePrice` (Giá nhà)
+* **Phân loại thuộc tính:** 
+  * 35 biến định lượng (Numerical Variables)
+  * 46 biến định tính (Categorical Variables)
 
 ---
 
-## 🔄 Quy trình phối hợp
+## 👥 2. Phân công Nhiệm vụ (Task Assignment)
 
-1. **Bước 1 (Ghép Code):** Cả 3 người làm xong phần code của mình -> Ráp lại thành 1 file Jupyter Notebook hoàn chỉnh.
-2. **Bước 2 (Xuất dữ liệu):** Thành viên 3 xuất toàn bộ biểu đồ & bảng kết quả gửi vào nhóm[cite: 1].
-3. **Bước 3 (Báo cáo & Slide):** 
-   - Thành viên 1 & 2 chia nhau viết Báo cáo Word.
-   - Thành viên 3 hốt Báo cáo + Biểu đồ đưa lên Slide PowerPoint[cite: 1].
-4. **Bước 4 (Dò lại bài):** Cả nhóm họp kiểm tra khớp số liệu giữa **Code - Báo cáo - Slide** trước khi nộp.
+| STT | Thành viên | MSSV | Vai trò | Hạng mục phụ trách | Chi tiết công việc trong Notebook / Project |
+| :-: | :--- | :-: | :--- | :--- | :--- |
+| 1 | **Cao Ngọc Hân** | 3124411083 | **Group Leader & Presenter** | **Mục I & Slide PPT** | • Tổng hợp project, thiết kế & soạn toàn bộ Slide báo cáo (PPT).<br>• **Mục I:** Nạp các thư viện cốt lõi (`numpy`, `pandas`, `matplotlib`, `seaborn`, `scipy`) & cấu hình môi trường.<br>• Kiểm tra và nạp dữ liệu thô (`train.csv`), xác nhận kích thước tập dữ liệu (`df_raw.shape`). |
+| 2 | **Trần Đỗ Khánh Linh** | 3124411151 | **Data Engineer 1** | **Mục II** | • **Mục II:** Tổng quan & Chuẩn hóa kiểu dữ liệu.<br>• Chuẩn hóa tên cột, ép kiểu dữ liệu cho các biến rời rạc (`MSSubClass`, `MoSold`, `YrSold`).<br>• Phân loại biến định lượng (35 biến) & biến định tính (46 biến).<br>• Tính thống kê 5 số (`describe().T`) cho các biến diện tích & giá trị cốt lõi.<br>• Lập bảng thống kê tần số cho biến `MSSubClass`. |
+| 3 | **Nguyễn An Nhung** | 3124411 | **Data Engineer 2** | **Mục III** | • **Mục III:** Phân tích biến mục tiêu & Biến đổi phân phối.<br>• Trực quan hóa & so sánh phân phối giữa `SalePrice` gốc và `LogSalePrice`.<br>• Tính toán độ lệch (Skewness) và độ nhọn (Kurtosis).<br>• Vẽ đồ thị phân phối (Histogram) và QQ-Plot để đánh giá tính chuẩn của biến mục tiêu. |
+
+---
+
+## 🛠️ 3. Công nghệ & Thư viện Sử dụng (Tech Stack)
+
+* **Ngôn ngữ:** Python 3.x
+* **Môi trường phát triển:** Jupyter Notebook / Google Colab
+* **Thư viện chính:**
+  * `pandas`, `numpy`: Thao tác và xử lý dữ liệu cấu trúc.
+  * `matplotlib`, `seaborn`: Trực quan hóa dữ liệu và biểu đồ thống kê.
+  * `scipy`: Kiểm định và tính toán các chỉ số thống kê (Skewness, Kurtosis, QQ-Plot).
