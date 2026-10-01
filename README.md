@@ -6,9 +6,9 @@
 
 > 💻 **Code:** Tất cả thành viên cùng tham gia
 
-> 📝 **Báo cáo:** Thành viên 1 & Thành viên 2
+> 📝 **Báo cáo:** Cao Ngọc Hân & Trần Đỗ Khánh Linh
 
-> 🎨 **Slide & Thuyết trình:** Thành viên 3
+> 🎨 **Slide & Thuyết trình:** Nguyễn An Nhung
 
 ---
 
