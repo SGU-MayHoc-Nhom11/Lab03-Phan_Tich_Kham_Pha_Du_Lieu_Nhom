@@ -16,9 +16,9 @@
 
 | Thành viên | Nhiệm vụ chính | Chi tiết công việc | Sản phẩm bàn giao |
 | :--- | :--- | :--- | :--- |
-| **Cao Ngọc Hân** | **Code Part 1**<br>+ **Báo cáo Part 1** | • **Code:** Khởi tạo môi trường, nạp dữ liệu, kiểm tra tổng quan & ép kiểu biến (`MSSubClass`, `MoSold`,...)[cite: 1].<br>• **Báo cáo:** Soạn Mở đầu, Tổng quan đề tài, Mô tả bộ dữ liệu Ames Housing & Lý thuyết phân loại biến[cite: 1]. | • Đoạn code Part 1 chạy chuẩn.<br>• Nửa đầu bài Báo cáo (Word). |
-| **Trần Đỗ Khánh Linh** | **Code Part 2**<br>+ **Báo cáo Part 2** | • **Code:** Xử lý biến mục tiêu `SalePrice`, tính thống kê mô tả (Mean, Std, Min, Max...) & biến đổi Logarithm[cite: 1].<br>• **Báo cáo:** Viết nhận xét chuyên sâu phần thống kê, giải thích lý do cần Log-transform & tổng hợp toàn bộ bài Báo cáo[cite: 1]. | • Đoạn code Part 2 chạy chuẩn.<br>• Nửa sau bài Báo cáo + File Word hoàn chỉnh. |
-| **Nguyễn An Nhung** | **Code Part 3**<br>+ **Slide & Presentation** | • **Code:** Phân loại biến Định tính / Định lượng, xuất toàn bộ bảng số liệu & hình biểu đồ (`.png`) cho nhóm[cite: 1].<br>• **Slide:** Thiết kế PowerPoint, tóm tắt ý chính từ Báo cáo, chèn biểu đồ/bảng số liệu & chuẩn bị kịch bản thuyết trình[cite: 1]. | • Đoạn code Part 3 + Folder biểu đồ.<br>• File Slide (`.pptx`) + Kịch bản nói. |
+| **Cao Ngọc Hân** | **Code Part 1**<br>+ **Báo cáo Part 1** | • **Code:** Khởi tạo môi trường, nạp dữ liệu, kiểm tra tổng quan & ép kiểu biến (`MSSubClass`, `MoSold`,...)[cite: 1].<br>• **Báo cáo:** Soạn Mở đầu, Tổng quan đề tài, Mô tả bộ dữ liệu Ames Housing & Lý thuyết phân loại biến. | • Đoạn code Part 1 chạy chuẩn.<br>• Nửa đầu bài Báo cáo (Word). |
+| **Trần Đỗ Khánh Linh** | **Code Part 2**<br>+ **Báo cáo Part 2** | • **Code:** Xử lý biến mục tiêu `SalePrice`, tính thống kê mô tả (Mean, Std, Min, Max...) & biến đổi Logarithm[cite: 1].<br>• **Báo cáo:** Viết nhận xét chuyên sâu phần thống kê, giải thích lý do cần Log-transform & tổng hợp toàn bộ bài Báo cáo. | • Đoạn code Part 2 chạy chuẩn.<br>• Nửa sau bài Báo cáo + File Word hoàn chỉnh. |
+| **Nguyễn An Nhung** | **Code Part 3**<br>+ **Slide & Presentation** | • **Code:** Phân loại biến Định tính / Định lượng, xuất toàn bộ bảng số liệu & hình biểu đồ (`.png`) cho nhóm[cite: 1].<br>• **Slide:** Thiết kế PowerPoint, tóm tắt ý chính từ Báo cáo, chèn biểu đồ/bảng số liệu & chuẩn bị kịch bản thuyết trình. | • Đoạn code Part 3 + Folder biểu đồ.<br>• File Slide (`.pptx`) + Kịch bản nói. |
 
 ---
 
