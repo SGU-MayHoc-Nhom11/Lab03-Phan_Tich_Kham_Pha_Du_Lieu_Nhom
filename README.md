@@ -1,7 +1,9 @@
 # 🏡 House Prices: Exploratory Data Analysis (EDA)
 
-> **Báo cáo Đồ án Học phần / End-of-Term Project**  
+> **Báo cáo:** Lab03 - Phân tích khám phá dữ liệu
+
 > **Môn học:** Máy học (Machine Learning)  
+
 > **Giảng viên hướng dẫn:** Đỗ Như Tài  
 
 ---
@@ -19,13 +21,13 @@ Dự án thực hiện phân tích khám phá dữ liệu (EDA) và tiền xử 
 
 ---
 
-## 👥 2. Phân công Nhiệm vụ (Task Assignment)
+## 2. Phân công Nhiệm vụ (Task Assignment)
 
 | STT | Thành viên | MSSV | Vai trò | Hạng mục phụ trách | Chi tiết công việc trong Notebook / Project |
 | :-: | :--- | :-: | :--- | :--- | :--- |
-| 1 | **Cao Ngọc Hân** | 3124411083 | **Group Leader & Presenter** | **Mục I & Slide PPT** | • Tổng hợp project, thiết kế & soạn toàn bộ Slide báo cáo (PPT).<br>• **Mục I:** Nạp các thư viện cốt lõi (`numpy`, `pandas`, `matplotlib`, `seaborn`, `scipy`) & cấu hình môi trường.<br>• Kiểm tra và nạp dữ liệu thô (`train.csv`), xác nhận kích thước tập dữ liệu (`df_raw.shape`). |
-| 2 | **Trần Đỗ Khánh Linh** | 3124411151 | **Data Engineer 1** | **Mục II** | • **Mục II:** Tổng quan & Chuẩn hóa kiểu dữ liệu.<br>• Chuẩn hóa tên cột, ép kiểu dữ liệu cho các biến rời rạc (`MSSubClass`, `MoSold`, `YrSold`).<br>• Phân loại biến định lượng (35 biến) & biến định tính (46 biến).<br>• Tính thống kê 5 số (`describe().T`) cho các biến diện tích & giá trị cốt lõi.<br>• Lập bảng thống kê tần số cho biến `MSSubClass`. |
-| 3 | **Nguyễn An Nhung** | 3124411 | **Data Engineer 2** | **Mục III** | • **Mục III:** Phân tích biến mục tiêu & Biến đổi phân phối.<br>• Trực quan hóa & so sánh phân phối giữa `SalePrice` gốc và `LogSalePrice`.<br>• Tính toán độ lệch (Skewness) và độ nhọn (Kurtosis).<br>• Vẽ đồ thị phân phối (Histogram) và QQ-Plot để đánh giá tính chuẩn của biến mục tiêu. |
+| 1 | **Nguyễn An Nhung** | 31244110 | Presenter | **Mục I & Slide PPT** | • Tổng hợp project, thiết kế & soạn toàn bộ Slide báo cáo (PPT).<br>• **Mục I:** Nạp các thư viện cốt lõi (`numpy`, `pandas`, `matplotlib`, `seaborn`, `scipy`) & cấu hình môi trường.<br>• Kiểm tra và nạp dữ liệu thô (`train.csv`), xác nhận kích thước tập dữ liệu (`df_raw.shape`). |
+| 2 | **Cao Ngọc Hân** | 3124411083 | Data Engineer 1 | **Mục II** | • **Mục II:** Tổng quan & Chuẩn hóa kiểu dữ liệu.<br>• Chuẩn hóa tên cột, ép kiểu dữ liệu cho các biến rời rạc (`MSSubClass`, `MoSold`, `YrSold`).<br>• Phân loại biến định lượng (35 biến) & biến định tính (46 biến).<br>• Tính thống kê 5 số (`describe().T`) cho các biến diện tích & giá trị cốt lõi.<br>• Lập bảng thống kê tần số cho biến `MSSubClass`. |
+| 3 | **Trần Đỗ Khánh Linh** | 3124411151 | Data Engineer 2 | **Mục III** | • **Mục III:** Phân tích biến mục tiêu & Biến đổi phân phối.<br>• Trực quan hóa & so sánh phân phối giữa `SalePrice` gốc và `LogSalePrice`.<br>• Tính toán độ lệch (Skewness) và độ nhọn (Kurtosis).<br>• Vẽ đồ thị phân phối (Histogram) và QQ-Plot để đánh giá tính chuẩn của biến mục tiêu. |
 
 ---
 
